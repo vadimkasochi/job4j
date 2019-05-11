@@ -5,10 +5,10 @@
 * @version 1
 * @since 0.1
 */
-package chapter_001.src.main.java.ru.job4j.calculate;
+package ru.job4j.calculate;
 
 public class calculate {
-	public String echo(String value) {
+	public String Echo(String value) {
 		return String.format("%s %s %s" , value, value, value);
 	}
 	/**
@@ -19,4 +19,12 @@ public class calculate {
 		calculate calc = new calculate();
 		System.out.println(calc.echo("afaf"));
 }
+/**
+ * Method echo.
+ * @param name Your name.
+ * @return Echo plus your name.
+ */
+ public String echo(String name) {
+    return "Eho, echo, echo : " + name;
+ }
 }
