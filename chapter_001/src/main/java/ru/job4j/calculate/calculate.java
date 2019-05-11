@@ -7,16 +7,16 @@
 */
 package ru.job4j.calculate;
 
-public class calculate {
-	public String Echo(String value) {
-		return String.format("%s %s %s" , value, value, value);
+public class Calculate {
+	public String echo(String value) {
+		return String.format("%s %s %s", value, value, value);
 	}
 	/**
 * main \
 * @param args - args/
 */
 	public static void main(String[] args) {
-		calculate calc = new calculate();
+		Calculate calc = new Calculate();
 		System.out.println(calc.echo("afaf"));
 }
 /**
@@ -25,6 +25,6 @@ public class calculate {
  * @return Echo plus your name.
  */
  public String echo(String name) {
-    return "Eho, echo, echo : " + name;
+    return "Echo, echo, echo : " + name;
  }
 }
