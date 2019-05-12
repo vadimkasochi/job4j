@@ -18,4 +18,5 @@ public class CalculateTest {
     String result = calc.echo(input);
     assertThat(result, is(expect));
  }
+ 
 }
