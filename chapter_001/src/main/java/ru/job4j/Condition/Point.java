@@ -5,6 +5,6 @@ public class Point {
 
         double first = Math.pow(x2 - x1, 2);
         double neFirst = Math.pow(y2 - y1, 2);
-        return Math.sqrt(first) + Math.sqrt(neFirst);
+        return Math.sqrt(first + neFirst);
     }
 }
