@@ -44,7 +44,7 @@ public class Triangle {
      * @param c Длина от точки b c.
      * @return  true or false.
      */
-    private boolean exist(double a, double b, double c) {
+    private boolean exist(double a, double b, double c) {  
         if (a > 0 && b > 0 && c > 0) return a + b > c && a + c > b && c + b > a;
         else {
             return false;
