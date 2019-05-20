@@ -2,7 +2,6 @@ package ru.job4j.PaintTest;
 
 import org.junit.Test;
 import ru.job4j.Paint.Paint;
-
 import java.util.StringJoiner;
 
 import static org.hamcrest.MatcherAssert.assertThat;
