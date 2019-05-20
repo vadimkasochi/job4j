@@ -1,5 +1,4 @@
 package ru.job4j.Paint;
-
 public class Paint {
     public String rightTrl(int height) {
         // Буфер для результата.
