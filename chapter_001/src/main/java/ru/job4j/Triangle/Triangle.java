@@ -3,6 +3,7 @@ package ru.job4j.Triangle;
 
 import ru.job4j.Condition.Point;
 
+
 public class Triangle {
 
     /**
@@ -50,4 +51,5 @@ public class Triangle {
             return false;
         }
     }
+
 }

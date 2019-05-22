@@ -41,7 +41,7 @@ public class PaintTest {
     @Test
     public void whenPyramid4mid() {
         Paint paint = new Paint();
-        String rst = paint.Trl(5);
+        String rst = paint.Trl(4);
         System.out.println(rst);
         assertThat(rst, is(
                         new StringJoiner(System.lineSeparator(), "", System.lineSeparator())
