@@ -9,12 +9,7 @@ public class Check {
                 result = false;
                 break;
             }
-            else if (data[1] != data[i]) {
-                result = false;
-            }
-            else if (data[2] != data[i]) {
-                result = false;
-            }
+
 
 
         return result;
